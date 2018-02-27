@@ -4,3 +4,4 @@ read fname
 echo  "output filename"
 read outfile
 sed 'y/aeiou/AEIOU/' $fname|cat >$outfile
+echo "hello"
